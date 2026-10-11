@@ -1,0 +1,18 @@
+{
+  "name": "Subtitle Translate (on-device)",
+  "identifier": "local.pranil.subtrans",
+  "version": "0.1.0",
+  "description": "Reads a video's bitmap subtitles with Vision OCR and translates them with Apple's on-device Translation. No OpenSubtitles, no network.",
+  "author": {
+    "name": "pranilsekuru"
+  },
+  "entry": "dist/index.js",
+  "permissions": [
+    "show-osd",
+    "file-system"
+  ],
+  "preferenceDefaults": {
+    "auto": true,
+    "target": "en"
+  }
+}

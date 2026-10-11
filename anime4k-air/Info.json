@@ -1,0 +1,28 @@
+{
+  "name": "Anime4K (Air)",
+  "identifier": "com.yorkyang2333.anime4k.air",
+  "version": "1.2.7-air",
+  "description": "IINA plugin for Anime4K, with an Air HQ tier tuned for fanless M-series Macs",
+  "author": {
+    "name": "yorkyang2333",
+    "email": "yangyork097@gmail.com",
+    "url": "https://github.com/yorkyang2333/iina-anime4k"
+  },
+  "entry": "dist/index.js",
+  "globalEntry": "dist/global.js",
+  "preferencesPage": "pref.html",
+  "permissions": [
+    "show-osd",
+    "video-overlay",
+    "file-system"
+  ],
+  "sidebarTab": {
+    "name": "Anime4K"
+  },
+  "preferenceDefaults": {
+    "quality": "air",
+    "mode": "auto",
+    "autoApply": true,
+    "lang": "auto"
+  }
+}
